@@ -15,8 +15,8 @@ public class Guepardo extends Animal implements Depredador {
 		System.out.println("Roncando");
 	}
 	
-	public void grunir() {
-		System.out.println("GGGGRRRRRR");
+	public String grunir() {
+		return "GGGGRRRRRR";
 	}
 	
 	public void reproducirce() {
